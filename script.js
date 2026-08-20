@@ -9,6 +9,6 @@ document.getElementById("Botao").onclick = () => {
         toast.className = "toast";
         document.body.appendChild(toast);
     }
-    toast.textContent = `Você clicou ${contador}`;
+    toast.textContent = `clicou ${contador}`;
     toast.classList.add("show");
 };
